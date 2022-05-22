@@ -46,7 +46,7 @@ body {
 }
 .navbar li {
     display: inline-block;
-    padding: 23px 30px 20px 20px;
+    padding: 23px 0px 20px 20px;
 }
 .navbar a{
     text-decoration: none;
@@ -60,4 +60,22 @@ body {
 .navbar a:hover{
     background: lightgray;
     border-radius: 100px;
+}
+@media screen and (max-width: 1050px){
+    ul.navbar {
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    ul.navbar li a {
+        float: left;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    ul.navbar li a {
+        text-align: center;
+        float: none;
+    }
 }
