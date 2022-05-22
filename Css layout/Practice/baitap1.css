@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+#main{
+    background-color: blanchedalmond;
+    width: 1000px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+#head {
+    height: 100px;
+    background-color: rgb(44, 49, 194);
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+#body {
+    height: 800px;
+    background-color: blanchedalmond;
+    border: 1px solid #CDCDCD;
+}
+#content-body {
+    height: 700px;
+    background-color: aqua;
+}
+#footer-body {
+    height: 100px;
+    background-color: blueviolet;
+}

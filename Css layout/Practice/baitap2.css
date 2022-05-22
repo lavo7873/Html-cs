@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+#main{
+    background-color: blanchedalmond;
+    width: 100%;
+    position: absolute;
+}
+#head {
+    height: 100px;
+    background-color: rgb(44, 49, 194);
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+.aside {
+    height: 600px;
+    background-color: red;
+    width: 20%;
+    float: left;
+}
+.content {
+    height: 600px;
+    background-color: green;
+    width: 50%;
+    float: left;
+}
+.slidebar {
+    height: 600px;
+    background-color: black;
+    width: 30%;
+    float: right;
+}
