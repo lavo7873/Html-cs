@@ -61,21 +61,34 @@ body {
     background: lightgray;
     border-radius: 100px;
 }
-@media screen and (max-width: 1050px){
-    ul.navbar {
-        width:100%;
-        height:auto;
-        position:relative;
-    }
-    ul.navbar li a {
-        float: left;
-        padding: 15px;
-    }
+.container {
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
 }
-
-@media screen and (max-width: 700px){
-    ul.navbar li a {
-        text-align: center;
-        float: none;
-    }
+.sidebar-1 {
+    background-color: lightgray;
+    width: 25%;
+    vertical-align: center;
+    text-align: left;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family:sans-serif;
+    float: left;
+}
+.content {
+    margin-top: 0px;
+    padding-left: 30px;
+    width: 55%;
+    float: left;
+}
+#footer {
+    position: absolute;
+    background-color: lightgray;
+    bottom: -950px;
+    margin-left: 14px;
+    width: 1500px;  
+    text-align: center;  
 }
